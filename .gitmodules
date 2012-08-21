@@ -1,0 +1,18 @@
+[submodule "vendor/BlocksKit"]
+	path = vendor/BlocksKit
+	url = git://github.com/zwaldowski/BlocksKit.git
+[submodule "vendor/AFNetworking"]
+	path = vendor/AFNetworking
+	url = git://github.com/AFNetworking/AFNetworking.git
+[submodule "vendor/SVProgressHUD"]
+	path = vendor/SVProgressHUD
+	url = git://github.com/samvermette/SVProgressHUD.git
+[submodule "vendor/JSONKit"]
+	path = vendor/JSONKit
+	url = git://github.com/johnezang/JSONKit.git
+[submodule "vendor/fmdb"]
+	path = vendor/fmdb
+	url = git://github.com/ccgus/fmdb.git
+[submodule "vendor/PullToRefreshView"]
+	path = vendor/PullToRefreshView
+	url = git://github.com/chpwn/PullToRefreshView.git

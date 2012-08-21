@@ -13,6 +13,13 @@
 		FC5920D015E35E97004266C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC5920CE15E35E97004266C6 /* InfoPlist.strings */; };
 		FC5920D215E35E97004266C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5920D115E35E97004266C6 /* main.m */; };
 		FC5920D615E35E97004266C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5920D515E35E97004266C6 /* AppDelegate.m */; };
+		FC5920DF15E35FAB004266C6 /* NSURL+LibraryHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5920DE15E35FAB004266C6 /* NSURL+LibraryHandling.m */; };
+		FC5920E615E3632B004266C6 /* NSString+HTMLEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5920E515E3632B004266C6 /* NSString+HTMLEscape.m */; };
+		FC5920E915E36378004266C6 /* NSURL+QueryHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5920E815E36378004266C6 /* NSURL+QueryHandling.m */; };
+		FC5920EC15E363BA004266C6 /* NSString+SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5920EB15E363BA004266C6 /* NSString+SHA1.m */; };
+		FC5920EF15E363F8004266C6 /* UIImage+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5920EE15E363F8004266C6 /* UIImage+NSCoding.m */; };
+		FC5920F215E36445004266C6 /* NSString+Commify.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5920F115E36444004266C6 /* NSString+Commify.m */; };
+		FC5920F515E36496004266C6 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5920F415E36496004266C6 /* NSData+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,22 @@
 		FC5920D315E35E97004266C6 /* YKUtility-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YKUtility-Prefix.pch"; sourceTree = "<group>"; };
 		FC5920D415E35E97004266C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC5920D515E35E97004266C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC5920DC15E35EBB004266C6 /* debugMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debugMacros.h; sourceTree = "<group>"; };
+		FC5920DD15E35FAB004266C6 /* NSURL+LibraryHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+LibraryHandling.h"; sourceTree = "<group>"; };
+		FC5920DE15E35FAB004266C6 /* NSURL+LibraryHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+LibraryHandling.m"; sourceTree = "<group>"; };
+		FC5920E315E36246004266C6 /* colorMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = colorMacros.h; sourceTree = "<group>"; };
+		FC5920E415E3632B004266C6 /* NSString+HTMLEscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTMLEscape.h"; sourceTree = "<group>"; };
+		FC5920E515E3632B004266C6 /* NSString+HTMLEscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTMLEscape.m"; sourceTree = "<group>"; };
+		FC5920E715E36378004266C6 /* NSURL+QueryHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryHandling.h"; sourceTree = "<group>"; };
+		FC5920E815E36378004266C6 /* NSURL+QueryHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QueryHandling.m"; sourceTree = "<group>"; };
+		FC5920EA15E363BA004266C6 /* NSString+SHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA1.h"; sourceTree = "<group>"; };
+		FC5920EB15E363BA004266C6 /* NSString+SHA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA1.m"; sourceTree = "<group>"; };
+		FC5920ED15E363F8004266C6 /* UIImage+NSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NSCoding.h"; sourceTree = "<group>"; };
+		FC5920EE15E363F8004266C6 /* UIImage+NSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NSCoding.m"; sourceTree = "<group>"; };
+		FC5920F015E36444004266C6 /* NSString+Commify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Commify.h"; sourceTree = "<group>"; };
+		FC5920F115E36444004266C6 /* NSString+Commify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Commify.m"; sourceTree = "<group>"; };
+		FC5920F315E36496004266C6 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		FC5920F415E36496004266C6 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +95,25 @@
 		FC5920CB15E35E97004266C6 /* YKUtility */ = {
 			isa = PBXGroup;
 			children = (
+				FC5920CC15E35E97004266C6 /* Supporting Files */,
 				FC5920D415E35E97004266C6 /* AppDelegate.h */,
 				FC5920D515E35E97004266C6 /* AppDelegate.m */,
-				FC5920CC15E35E97004266C6 /* Supporting Files */,
+				FC5920DC15E35EBB004266C6 /* debugMacros.h */,
+				FC5920E315E36246004266C6 /* colorMacros.h */,
+				FC5920DD15E35FAB004266C6 /* NSURL+LibraryHandling.h */,
+				FC5920DE15E35FAB004266C6 /* NSURL+LibraryHandling.m */,
+				FC5920E715E36378004266C6 /* NSURL+QueryHandling.h */,
+				FC5920E815E36378004266C6 /* NSURL+QueryHandling.m */,
+				FC5920E415E3632B004266C6 /* NSString+HTMLEscape.h */,
+				FC5920E515E3632B004266C6 /* NSString+HTMLEscape.m */,
+				FC5920EA15E363BA004266C6 /* NSString+SHA1.h */,
+				FC5920EB15E363BA004266C6 /* NSString+SHA1.m */,
+				FC5920F015E36444004266C6 /* NSString+Commify.h */,
+				FC5920F115E36444004266C6 /* NSString+Commify.m */,
+				FC5920ED15E363F8004266C6 /* UIImage+NSCoding.h */,
+				FC5920EE15E363F8004266C6 /* UIImage+NSCoding.m */,
+				FC5920F315E36496004266C6 /* NSData+Base64.h */,
+				FC5920F415E36496004266C6 /* NSData+Base64.m */,
 			);
 			path = YKUtility;
 			sourceTree = "<group>";
@@ -154,6 +193,13 @@
 			files = (
 				FC5920D215E35E97004266C6 /* main.m in Sources */,
 				FC5920D615E35E97004266C6 /* AppDelegate.m in Sources */,
+				FC5920DF15E35FAB004266C6 /* NSURL+LibraryHandling.m in Sources */,
+				FC5920E615E3632B004266C6 /* NSString+HTMLEscape.m in Sources */,
+				FC5920E915E36378004266C6 /* NSURL+QueryHandling.m in Sources */,
+				FC5920EC15E363BA004266C6 /* NSString+SHA1.m in Sources */,
+				FC5920EF15E363F8004266C6 /* UIImage+NSCoding.m in Sources */,
+				FC5920F215E36445004266C6 /* NSString+Commify.m in Sources */,
+				FC5920F515E36496004266C6 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

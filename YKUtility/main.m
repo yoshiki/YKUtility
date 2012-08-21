@@ -2,7 +2,7 @@
 //  main.m
 //  YKUtility
 //
-//  Created by 栗原 由樹 on 12/08/21.
+//  Created by Yoshiki Kurihara on 12/08/21.
 //  Copyright (c) 2012年 Yoshiki Kurihara. All rights reserved.
 //
 

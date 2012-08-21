@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  UIImage+NSCoding.h
 //  YKUtility
 //
 //  Created by Yoshiki Kurihara on 12/08/21.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface UIImage (NSCoding)
 
-@property (strong, nonatomic) UIWindow *window;
+- (id)initWithCoder:(NSCoder *)decoder;
+- (void)encodeWithCoder:(NSCoder *)encoder;
 
 @end
