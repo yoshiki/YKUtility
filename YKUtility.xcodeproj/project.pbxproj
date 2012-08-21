@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC5920C615E35E97004266C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5920C515E35E97004266C6 /* UIKit.framework */; };
+		FC5920C815E35E97004266C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5920C715E35E97004266C6 /* Foundation.framework */; };
+		FC5920CA15E35E97004266C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5920C915E35E97004266C6 /* CoreGraphics.framework */; };
+		FC5920D015E35E97004266C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC5920CE15E35E97004266C6 /* InfoPlist.strings */; };
+		FC5920D215E35E97004266C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5920D115E35E97004266C6 /* main.m */; };
+		FC5920D615E35E97004266C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5920D515E35E97004266C6 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC5920C115E35E97004266C6 /* YKUtility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKUtility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5920C515E35E97004266C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC5920C715E35E97004266C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC5920C915E35E97004266C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC5920CD15E35E97004266C6 /* YKUtility-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YKUtility-Info.plist"; sourceTree = "<group>"; };
+		FC5920CF15E35E97004266C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC5920D115E35E97004266C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC5920D315E35E97004266C6 /* YKUtility-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YKUtility-Prefix.pch"; sourceTree = "<group>"; };
+		FC5920D415E35E97004266C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC5920D515E35E97004266C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC5920BE15E35E97004266C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5920C615E35E97004266C6 /* UIKit.framework in Frameworks */,
+				FC5920C815E35E97004266C6 /* Foundation.framework in Frameworks */,
+				FC5920CA15E35E97004266C6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC5920B615E35E97004266C6 = {
+			isa = PBXGroup;
+			children = (
+				FC5920CB15E35E97004266C6 /* YKUtility */,
+				FC5920C415E35E97004266C6 /* Frameworks */,
+				FC5920C215E35E97004266C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC5920C215E35E97004266C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC5920C115E35E97004266C6 /* YKUtility.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC5920C415E35E97004266C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC5920C515E35E97004266C6 /* UIKit.framework */,
+				FC5920C715E35E97004266C6 /* Foundation.framework */,
+				FC5920C915E35E97004266C6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC5920CB15E35E97004266C6 /* YKUtility */ = {
+			isa = PBXGroup;
+			children = (
+				FC5920D415E35E97004266C6 /* AppDelegate.h */,
+				FC5920D515E35E97004266C6 /* AppDelegate.m */,
+				FC5920CC15E35E97004266C6 /* Supporting Files */,
+			);
+			path = YKUtility;
+			sourceTree = "<group>";
+		};
+		FC5920CC15E35E97004266C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC5920CD15E35E97004266C6 /* YKUtility-Info.plist */,
+				FC5920CE15E35E97004266C6 /* InfoPlist.strings */,
+				FC5920D115E35E97004266C6 /* main.m */,
+				FC5920D315E35E97004266C6 /* YKUtility-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC5920C015E35E97004266C6 /* YKUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5920D915E35E97004266C6 /* Build configuration list for PBXNativeTarget "YKUtility" */;
+			buildPhases = (
+				FC5920BD15E35E97004266C6 /* Sources */,
+				FC5920BE15E35E97004266C6 /* Frameworks */,
+				FC5920BF15E35E97004266C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKUtility;
+			productName = YKUtility;
+			productReference = FC5920C115E35E97004266C6 /* YKUtility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC5920B815E35E97004266C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Yoshiki Kurihara";
+			};
+			buildConfigurationList = FC5920BB15E35E97004266C6 /* Build configuration list for PBXProject "YKUtility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC5920B615E35E97004266C6;
+			productRefGroup = FC5920C215E35E97004266C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC5920C015E35E97004266C6 /* YKUtility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC5920BF15E35E97004266C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5920D015E35E97004266C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC5920BD15E35E97004266C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5920D215E35E97004266C6 /* main.m in Sources */,
+				FC5920D615E35E97004266C6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC5920CE15E35E97004266C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5920CF15E35E97004266C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC5920D715E35E97004266C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC5920D815E35E97004266C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC5920DA15E35E97004266C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YKUtility/YKUtility-Prefix.pch";
+				INFOPLIST_FILE = "YKUtility/YKUtility-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC5920DB15E35E97004266C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YKUtility/YKUtility-Prefix.pch";
+				INFOPLIST_FILE = "YKUtility/YKUtility-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC5920BB15E35E97004266C6 /* Build configuration list for PBXProject "YKUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5920D715E35E97004266C6 /* Debug */,
+				FC5920D815E35E97004266C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5920D915E35E97004266C6 /* Build configuration list for PBXNativeTarget "YKUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5920DA15E35E97004266C6 /* Debug */,
+				FC5920DB15E35E97004266C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC5920B815E35E97004266C6 /* Project object */;
+}
