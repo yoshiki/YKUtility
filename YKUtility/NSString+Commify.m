@@ -3,7 +3,7 @@
 //  YKUtility
 //
 //  Created by Yoshiki Kurihara on 12/08/21.
-//  Copyright (c) 2012年 Yoshiki Kurihara. All rights reserved.
+//  Copyright (c) 2012 Yoshiki Kurihara. All rights reserved.
 //
 
 #import "NSString+Commify.h"
