@@ -1,0 +1,44 @@
+//
+//  CustomNavigationController.m
+//  YKUtility
+//
+//  Created by Yoshiki Kurihara on 12/08/22.
+//  Copyright (c) 2012年 Yoshiki Kurihara. All rights reserved.
+//
+
+#import "CustomNavController.h"
+
+@interface CustomNavController ()
+
+@end
+
+@implementation CustomNavController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        //[[self navigationBar] performSelector:@selector(setBackgroundImage:) withObject:[UIImage imageNamed:@"navbar_bg"]];
+        [[self navigationBar] performSelector:@selector(setBackgroundImage:tintColor:) withObject:[UIImage imageNamed:@"navbar_bg"] withObject:UIColorFromRGB(0x999900)];
+    }
+    return self;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view.
+}
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+@end

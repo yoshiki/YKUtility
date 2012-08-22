@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC4F8F8615E48C3100D8C0DC /* UINavigationBar+CustomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4F8F8515E48C3100D8C0DC /* UINavigationBar+CustomImage.m */; };
+		FC4F8F8B15E48F5800D8C0DC /* CustomNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4F8F8A15E48F5800D8C0DC /* CustomNavController.m */; };
 		FC5920C615E35E97004266C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5920C515E35E97004266C6 /* UIKit.framework */; };
 		FC5920C815E35E97004266C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5920C715E35E97004266C6 /* Foundation.framework */; };
 		FC5920CA15E35E97004266C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5920C915E35E97004266C6 /* CoreGraphics.framework */; };
@@ -20,9 +22,23 @@
 		FC5920EF15E363F8004266C6 /* UIImage+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5920EE15E363F8004266C6 /* UIImage+NSCoding.m */; };
 		FC5920F215E36445004266C6 /* NSString+Commify.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5920F115E36444004266C6 /* NSString+Commify.m */; };
 		FC5920F515E36496004266C6 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5920F415E36496004266C6 /* NSData+Base64.m */; };
+		FC5BCE6A15E4876100A4F29C /* navbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5BCE6815E4876100A4F29C /* navbar_bg.png */; };
+		FC5BCE6B15E4876100A4F29C /* navbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5BCE6915E4876100A4F29C /* navbar_bg@2x.png */; };
+		FC5BCE6E15E4879900A4F29C /* SampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5BCE6D15E4879900A4F29C /* SampleTableViewController.m */; };
+		FC5BCE7415E48B1900A4F29C /* CustomNavBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5BCE7315E48B1900A4F29C /* CustomNavBarController.m */; };
+		FC95A82F15E49E4C0056F0EF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC95A82E15E49E4C0056F0EF /* MessageUI.framework */; };
+		FC95A83115E49FBF0056F0EF /* BlocksKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC95A83015E49FBF0056F0EF /* BlocksKit.framework */; };
+		FC95A83A15E4C7CE0056F0EF /* back_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FC95A83815E4C7CE0056F0EF /* back_arrow.png */; };
+		FC95A83B15E4C7CE0056F0EF /* back_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC95A83915E4C7CE0056F0EF /* back_arrow@2x.png */; };
+		FC95A83E15E4C7FB0056F0EF /* CustomBackBarButtonItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC95A83D15E4C7FB0056F0EF /* CustomBackBarButtonItemController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC4F8F8415E48C3100D8C0DC /* UINavigationBar+CustomImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CustomImage.h"; sourceTree = "<group>"; };
+		FC4F8F8515E48C3100D8C0DC /* UINavigationBar+CustomImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CustomImage.m"; sourceTree = "<group>"; };
+		FC4F8F8715E48E4500D8C0DC /* cgMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cgMacros.h; sourceTree = "<group>"; };
+		FC4F8F8915E48F5800D8C0DC /* CustomNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavController.h; sourceTree = "<group>"; };
+		FC4F8F8A15E48F5800D8C0DC /* CustomNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavController.m; sourceTree = "<group>"; };
 		FC5920C115E35E97004266C6 /* YKUtility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKUtility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5920C515E35E97004266C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FC5920C715E35E97004266C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,6 +65,18 @@
 		FC5920F115E36444004266C6 /* NSString+Commify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Commify.m"; sourceTree = "<group>"; };
 		FC5920F315E36496004266C6 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		FC5920F415E36496004266C6 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		FC5BCE6815E4876100A4F29C /* navbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_bg.png; sourceTree = "<group>"; };
+		FC5BCE6915E4876100A4F29C /* navbar_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_bg@2x.png"; sourceTree = "<group>"; };
+		FC5BCE6C15E4879900A4F29C /* SampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleTableViewController.h; sourceTree = "<group>"; };
+		FC5BCE6D15E4879900A4F29C /* SampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTableViewController.m; sourceTree = "<group>"; };
+		FC5BCE7215E48B1900A4F29C /* CustomNavBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavBarController.h; sourceTree = "<group>"; };
+		FC5BCE7315E48B1900A4F29C /* CustomNavBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavBarController.m; sourceTree = "<group>"; };
+		FC95A82E15E49E4C0056F0EF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FC95A83015E49FBF0056F0EF /* BlocksKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BlocksKit.framework; path = vendor/BlocksKit.framework; sourceTree = "<group>"; };
+		FC95A83815E4C7CE0056F0EF /* back_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_arrow.png; sourceTree = "<group>"; };
+		FC95A83915E4C7CE0056F0EF /* back_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_arrow@2x.png"; sourceTree = "<group>"; };
+		FC95A83C15E4C7FB0056F0EF /* CustomBackBarButtonItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBackBarButtonItemController.h; sourceTree = "<group>"; };
+		FC95A83D15E4C7FB0056F0EF /* CustomBackBarButtonItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBackBarButtonItemController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC95A82F15E49E4C0056F0EF /* MessageUI.framework in Frameworks */,
 				FC5920C615E35E97004266C6 /* UIKit.framework in Frameworks */,
 				FC5920C815E35E97004266C6 /* Foundation.framework in Frameworks */,
 				FC5920CA15E35E97004266C6 /* CoreGraphics.framework in Frameworks */,
+				FC95A83115E49FBF0056F0EF /* BlocksKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC4F8F8815E48F4300D8C0DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		FC5920B615E35E97004266C6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +122,8 @@
 		FC5920C415E35E97004266C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC95A83015E49FBF0056F0EF /* BlocksKit.framework */,
+				FC95A82E15E49E4C0056F0EF /* MessageUI.framework */,
 				FC5920C515E35E97004266C6 /* UIKit.framework */,
 				FC5920C715E35E97004266C6 /* Foundation.framework */,
 				FC5920C915E35E97004266C6 /* CoreGraphics.framework */,
@@ -95,11 +134,43 @@
 		FC5920CB15E35E97004266C6 /* YKUtility */ = {
 			isa = PBXGroup;
 			children = (
+				FC4F8F8815E48F4300D8C0DC /* View */,
+				FC5BCE7115E487CB00A4F29C /* Macro */,
+				FC5BCE7015E487B600A4F29C /* Controller */,
+				FC5BCE6F15E4879E00A4F29C /* Category */,
+				FC5BCE6715E4876100A4F29C /* images */,
 				FC5920CC15E35E97004266C6 /* Supporting Files */,
 				FC5920D415E35E97004266C6 /* AppDelegate.h */,
 				FC5920D515E35E97004266C6 /* AppDelegate.m */,
-				FC5920DC15E35EBB004266C6 /* debugMacros.h */,
-				FC5920E315E36246004266C6 /* colorMacros.h */,
+			);
+			path = YKUtility;
+			sourceTree = "<group>";
+		};
+		FC5920CC15E35E97004266C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC5920CD15E35E97004266C6 /* YKUtility-Info.plist */,
+				FC5920CE15E35E97004266C6 /* InfoPlist.strings */,
+				FC5920D115E35E97004266C6 /* main.m */,
+				FC5920D315E35E97004266C6 /* YKUtility-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC5BCE6715E4876100A4F29C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FC95A83815E4C7CE0056F0EF /* back_arrow.png */,
+				FC95A83915E4C7CE0056F0EF /* back_arrow@2x.png */,
+				FC5BCE6815E4876100A4F29C /* navbar_bg.png */,
+				FC5BCE6915E4876100A4F29C /* navbar_bg@2x.png */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
+		FC5BCE6F15E4879E00A4F29C /* Category */ = {
+			isa = PBXGroup;
+			children = (
 				FC5920DD15E35FAB004266C6 /* NSURL+LibraryHandling.h */,
 				FC5920DE15E35FAB004266C6 /* NSURL+LibraryHandling.m */,
 				FC5920E715E36378004266C6 /* NSURL+QueryHandling.h */,
@@ -114,19 +185,51 @@
 				FC5920EE15E363F8004266C6 /* UIImage+NSCoding.m */,
 				FC5920F315E36496004266C6 /* NSData+Base64.h */,
 				FC5920F415E36496004266C6 /* NSData+Base64.m */,
+				FC4F8F8415E48C3100D8C0DC /* UINavigationBar+CustomImage.h */,
+				FC4F8F8515E48C3100D8C0DC /* UINavigationBar+CustomImage.m */,
 			);
-			path = YKUtility;
+			name = Category;
 			sourceTree = "<group>";
 		};
-		FC5920CC15E35E97004266C6 /* Supporting Files */ = {
+		FC5BCE7015E487B600A4F29C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FC5920CD15E35E97004266C6 /* YKUtility-Info.plist */,
-				FC5920CE15E35E97004266C6 /* InfoPlist.strings */,
-				FC5920D115E35E97004266C6 /* main.m */,
-				FC5920D315E35E97004266C6 /* YKUtility-Prefix.pch */,
+				FC95A83215E4ADA80056F0EF /* CustomNavBar */,
+				FC95A83315E4C51F0056F0EF /* CustomBackBarButtonItem */,
+				FC5BCE6C15E4879900A4F29C /* SampleTableViewController.h */,
+				FC5BCE6D15E4879900A4F29C /* SampleTableViewController.m */,
 			);
-			name = "Supporting Files";
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FC5BCE7115E487CB00A4F29C /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				FC5920DC15E35EBB004266C6 /* debugMacros.h */,
+				FC5920E315E36246004266C6 /* colorMacros.h */,
+				FC4F8F8715E48E4500D8C0DC /* cgMacros.h */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		FC95A83215E4ADA80056F0EF /* CustomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				FC5BCE7215E48B1900A4F29C /* CustomNavBarController.h */,
+				FC5BCE7315E48B1900A4F29C /* CustomNavBarController.m */,
+				FC4F8F8915E48F5800D8C0DC /* CustomNavController.h */,
+				FC4F8F8A15E48F5800D8C0DC /* CustomNavController.m */,
+			);
+			name = CustomNavBar;
+			sourceTree = "<group>";
+		};
+		FC95A83315E4C51F0056F0EF /* CustomBackBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				FC95A83C15E4C7FB0056F0EF /* CustomBackBarButtonItemController.h */,
+				FC95A83D15E4C7FB0056F0EF /* CustomBackBarButtonItemController.m */,
+			);
+			name = CustomBackBarButtonItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC5920D015E35E97004266C6 /* InfoPlist.strings in Resources */,
+				FC5BCE6A15E4876100A4F29C /* navbar_bg.png in Resources */,
+				FC5BCE6B15E4876100A4F29C /* navbar_bg@2x.png in Resources */,
+				FC95A83A15E4C7CE0056F0EF /* back_arrow.png in Resources */,
+				FC95A83B15E4C7CE0056F0EF /* back_arrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +307,11 @@
 				FC5920EF15E363F8004266C6 /* UIImage+NSCoding.m in Sources */,
 				FC5920F215E36445004266C6 /* NSString+Commify.m in Sources */,
 				FC5920F515E36496004266C6 /* NSData+Base64.m in Sources */,
+				FC5BCE6E15E4879900A4F29C /* SampleTableViewController.m in Sources */,
+				FC5BCE7415E48B1900A4F29C /* CustomNavBarController.m in Sources */,
+				FC4F8F8615E48C3100D8C0DC /* UINavigationBar+CustomImage.m in Sources */,
+				FC4F8F8B15E48F5800D8C0DC /* CustomNavController.m in Sources */,
+				FC95A83E15E4C7FB0056F0EF /* CustomBackBarButtonItemController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +381,20 @@
 		FC5920DA15E35E97004266C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor/BlocksKit\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/vendor\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YKUtility/YKUtility-Prefix.pch";
 				INFOPLIST_FILE = "YKUtility/YKUtility-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -280,9 +403,20 @@
 		FC5920DB15E35E97004266C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor/BlocksKit\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/vendor\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YKUtility/YKUtility-Prefix.pch";
 				INFOPLIST_FILE = "YKUtility/YKUtility-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -307,6 +441,7 @@
 				FC5920DB15E35E97004266C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

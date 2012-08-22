@@ -8,9 +8,9 @@
 //  Copy from http://qiita.com/items/d21ebf23d947590beef2
 
 #ifdef DEBUG
-#define DEBUGLOG(…) NSLog(__VA_ARGS__)
+#define DEBUGLOG(...) NSLog(__VA_ARGS__)
 #else
-#define DEBUGLOG(…) ;
+#define DEBUGLOG(...) ;
 #endif
 
 #ifdef DEBUG
