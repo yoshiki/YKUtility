@@ -9,7 +9,12 @@
 #import "SampleTableViewController.h"
 #import "CustomNavBarController.h"
 #import "CustomNavController.h"
-#import "CustomBackBarButtonItemController.h"
+#import "CustomBackBarButtonController.h"
+#import "CustomBackBarButton2Controller.h"
+#import "SelectionActionSheetController.h"
+#import "RoundedCornerNavBarController.h"
+#import "RoundedCornerNavController.h"
+#import "TableHandlingController.h"
 
 @interface SampleTableViewController ()
 
@@ -25,9 +30,14 @@
 {
     self = [super initWithStyle:style];
     if (self) {
+        self.title = @"Sample";
         self.samples = [NSArray arrayWithObjects:
                         @"CustomNavBar",
                         @"CustomBackBarButton",
+                        @"CustomBackBarButton2",
+                        @"SelectionActionSheet",
+                        @"RoundedCornerNavBar",
+                        @"TableHandling",
                         nil];
     }
     return self;
@@ -63,8 +73,23 @@
         CustomNavController *nav = [[CustomNavController alloc] initWithRootViewController:c];
         [self presentModalViewController:nav animated:YES];
     } else if ([name isEqualToString:@"CustomBackBarButton"]) {
-        CustomBackBarButtonItemController *c = [[CustomBackBarButtonItemController alloc] init];
+        self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"back_arrow"] style:UIBarButtonItemStyleBordered target:nil action:nil];
+        CustomBackBarButtonController *c = [[CustomBackBarButtonController alloc] init];
         [self.navigationController pushViewController:c animated:YES];
+    } else if ([name isEqualToString:@"CustomBackBarButton2"]) {
+        CustomBackBarButton2Controller *c = [[CustomBackBarButton2Controller alloc] init];
+        [self.navigationController pushViewController:c animated:YES];
+    } else if ([name isEqualToString:@"SelectionActionSheet"]) {
+        SelectionActionSheetController *c = [[SelectionActionSheetController alloc] init];
+        [self.navigationController pushViewController:c animated:YES];
+    } else if ([name isEqualToString:@"RoundedCornerNavBar"]) {
+        RoundedCornerNavBarController *c = [[RoundedCornerNavBarController alloc] init];
+        RoundedCornerNavController *nav = [[RoundedCornerNavController alloc] initWithRootViewController:c];
+        [self presentModalViewController:nav animated:YES];
+    } else if ([name isEqualToString:@"TableHandling"]) {
+        TableHandlingController *c = [[TableHandlingController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:c];
+        [self presentModalViewController:nav animated:YES];
     }
 }
 

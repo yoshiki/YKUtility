@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1D6A5C15E7704900B9010F /* CustomBackBarButton2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D6A5B15E7704900B9010F /* CustomBackBarButton2Controller.m */; };
+		FC1D6A6015E772ED00B9010F /* SelectionActionSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D6A5F15E772ED00B9010F /* SelectionActionSheetController.m */; };
+		FC1D6A6315E7730600B9010F /* SelectionActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D6A6215E7730600B9010F /* SelectionActionSheet.m */; };
+		FC2647BA15EC59BB00CAD424 /* RoundedCornerNavBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2647B915EC59BB00CAD424 /* RoundedCornerNavBarController.m */; };
+		FC2647BD15EC59EA00CAD424 /* RoundedCornerNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2647BC15EC59E900CAD424 /* RoundedCornerNavController.m */; };
+		FC2647C415EC5DBA00CAD424 /* rounded_navbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2647C215EC5DBA00CAD424 /* rounded_navbar_bg.png */; };
+		FC2647C515EC5DBA00CAD424 /* rounded_navbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2647C315EC5DBA00CAD424 /* rounded_navbar_bg@2x.png */; };
+		FC2647C915EC600800CAD424 /* TableHandlingController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2647C815EC600800CAD424 /* TableHandlingController.m */; };
 		FC4F8F8615E48C3100D8C0DC /* UINavigationBar+CustomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4F8F8515E48C3100D8C0DC /* UINavigationBar+CustomImage.m */; };
 		FC4F8F8B15E48F5800D8C0DC /* CustomNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4F8F8A15E48F5800D8C0DC /* CustomNavController.m */; };
 		FC5920C615E35E97004266C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5920C515E35E97004266C6 /* UIKit.framework */; };
@@ -30,10 +38,24 @@
 		FC95A83115E49FBF0056F0EF /* BlocksKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC95A83015E49FBF0056F0EF /* BlocksKit.framework */; };
 		FC95A83A15E4C7CE0056F0EF /* back_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FC95A83815E4C7CE0056F0EF /* back_arrow.png */; };
 		FC95A83B15E4C7CE0056F0EF /* back_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC95A83915E4C7CE0056F0EF /* back_arrow@2x.png */; };
-		FC95A83E15E4C7FB0056F0EF /* CustomBackBarButtonItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC95A83D15E4C7FB0056F0EF /* CustomBackBarButtonItemController.m */; };
+		FC95A83E15E4C7FB0056F0EF /* CustomBackBarButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC95A83D15E4C7FB0056F0EF /* CustomBackBarButtonController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC1D6A5A15E7704900B9010F /* CustomBackBarButton2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBackBarButton2Controller.h; sourceTree = "<group>"; };
+		FC1D6A5B15E7704900B9010F /* CustomBackBarButton2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBackBarButton2Controller.m; sourceTree = "<group>"; };
+		FC1D6A5E15E772ED00B9010F /* SelectionActionSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionActionSheetController.h; sourceTree = "<group>"; };
+		FC1D6A5F15E772ED00B9010F /* SelectionActionSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionActionSheetController.m; sourceTree = "<group>"; };
+		FC1D6A6115E7730600B9010F /* SelectionActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionActionSheet.h; sourceTree = "<group>"; };
+		FC1D6A6215E7730600B9010F /* SelectionActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionActionSheet.m; sourceTree = "<group>"; };
+		FC2647B815EC59BB00CAD424 /* RoundedCornerNavBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedCornerNavBarController.h; sourceTree = "<group>"; };
+		FC2647B915EC59BB00CAD424 /* RoundedCornerNavBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedCornerNavBarController.m; sourceTree = "<group>"; };
+		FC2647BB15EC59E900CAD424 /* RoundedCornerNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedCornerNavController.h; sourceTree = "<group>"; };
+		FC2647BC15EC59E900CAD424 /* RoundedCornerNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedCornerNavController.m; sourceTree = "<group>"; };
+		FC2647C215EC5DBA00CAD424 /* rounded_navbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rounded_navbar_bg.png; sourceTree = "<group>"; };
+		FC2647C315EC5DBA00CAD424 /* rounded_navbar_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rounded_navbar_bg@2x.png"; sourceTree = "<group>"; };
+		FC2647C715EC600800CAD424 /* TableHandlingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableHandlingController.h; sourceTree = "<group>"; };
+		FC2647C815EC600800CAD424 /* TableHandlingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableHandlingController.m; sourceTree = "<group>"; };
 		FC4F8F8415E48C3100D8C0DC /* UINavigationBar+CustomImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CustomImage.h"; sourceTree = "<group>"; };
 		FC4F8F8515E48C3100D8C0DC /* UINavigationBar+CustomImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CustomImage.m"; sourceTree = "<group>"; };
 		FC4F8F8715E48E4500D8C0DC /* cgMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cgMacros.h; sourceTree = "<group>"; };
@@ -75,8 +97,8 @@
 		FC95A83015E49FBF0056F0EF /* BlocksKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BlocksKit.framework; path = vendor/BlocksKit.framework; sourceTree = "<group>"; };
 		FC95A83815E4C7CE0056F0EF /* back_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_arrow.png; sourceTree = "<group>"; };
 		FC95A83915E4C7CE0056F0EF /* back_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_arrow@2x.png"; sourceTree = "<group>"; };
-		FC95A83C15E4C7FB0056F0EF /* CustomBackBarButtonItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBackBarButtonItemController.h; sourceTree = "<group>"; };
-		FC95A83D15E4C7FB0056F0EF /* CustomBackBarButtonItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBackBarButtonItemController.m; sourceTree = "<group>"; };
+		FC95A83C15E4C7FB0056F0EF /* CustomBackBarButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBackBarButtonController.h; sourceTree = "<group>"; };
+		FC95A83D15E4C7FB0056F0EF /* CustomBackBarButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBackBarButtonController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +117,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC1D6A5D15E772D200B9010F /* SelectionActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D6A5E15E772ED00B9010F /* SelectionActionSheetController.h */,
+				FC1D6A5F15E772ED00B9010F /* SelectionActionSheetController.m */,
+				FC1D6A6115E7730600B9010F /* SelectionActionSheet.h */,
+				FC1D6A6215E7730600B9010F /* SelectionActionSheet.m */,
+			);
+			name = SelectionActionSheet;
+			sourceTree = "<group>";
+		};
+		FC2647B615EC597E00CAD424 /* RoundedCornerNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				FC2647B815EC59BB00CAD424 /* RoundedCornerNavBarController.h */,
+				FC2647B915EC59BB00CAD424 /* RoundedCornerNavBarController.m */,
+				FC2647BB15EC59E900CAD424 /* RoundedCornerNavController.h */,
+				FC2647BC15EC59E900CAD424 /* RoundedCornerNavController.m */,
+			);
+			name = RoundedCornerNavBar;
+			sourceTree = "<group>";
+		};
+		FC2647C615EC5FF200CAD424 /* TableHandling */ = {
+			isa = PBXGroup;
+			children = (
+				FC2647C715EC600800CAD424 /* TableHandlingController.h */,
+				FC2647C815EC600800CAD424 /* TableHandlingController.m */,
+			);
+			name = TableHandling;
+			sourceTree = "<group>";
+		};
 		FC4F8F8815E48F4300D8C0DC /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +215,8 @@
 			children = (
 				FC95A83815E4C7CE0056F0EF /* back_arrow.png */,
 				FC95A83915E4C7CE0056F0EF /* back_arrow@2x.png */,
+				FC2647C215EC5DBA00CAD424 /* rounded_navbar_bg.png */,
+				FC2647C315EC5DBA00CAD424 /* rounded_navbar_bg@2x.png */,
 				FC5BCE6815E4876100A4F29C /* navbar_bg.png */,
 				FC5BCE6915E4876100A4F29C /* navbar_bg@2x.png */,
 			);
@@ -194,6 +249,9 @@
 		FC5BCE7015E487B600A4F29C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FC2647C615EC5FF200CAD424 /* TableHandling */,
+				FC2647B615EC597E00CAD424 /* RoundedCornerNavBar */,
+				FC1D6A5D15E772D200B9010F /* SelectionActionSheet */,
 				FC95A83215E4ADA80056F0EF /* CustomNavBar */,
 				FC95A83315E4C51F0056F0EF /* CustomBackBarButtonItem */,
 				FC5BCE6C15E4879900A4F29C /* SampleTableViewController.h */,
@@ -226,8 +284,10 @@
 		FC95A83315E4C51F0056F0EF /* CustomBackBarButtonItem */ = {
 			isa = PBXGroup;
 			children = (
-				FC95A83C15E4C7FB0056F0EF /* CustomBackBarButtonItemController.h */,
-				FC95A83D15E4C7FB0056F0EF /* CustomBackBarButtonItemController.m */,
+				FC95A83C15E4C7FB0056F0EF /* CustomBackBarButtonController.h */,
+				FC95A83D15E4C7FB0056F0EF /* CustomBackBarButtonController.m */,
+				FC1D6A5A15E7704900B9010F /* CustomBackBarButton2Controller.h */,
+				FC1D6A5B15E7704900B9010F /* CustomBackBarButton2Controller.m */,
 			);
 			name = CustomBackBarButtonItem;
 			sourceTree = "<group>";
@@ -288,6 +348,8 @@
 				FC5BCE6B15E4876100A4F29C /* navbar_bg@2x.png in Resources */,
 				FC95A83A15E4C7CE0056F0EF /* back_arrow.png in Resources */,
 				FC95A83B15E4C7CE0056F0EF /* back_arrow@2x.png in Resources */,
+				FC2647C415EC5DBA00CAD424 /* rounded_navbar_bg.png in Resources */,
+				FC2647C515EC5DBA00CAD424 /* rounded_navbar_bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +373,13 @@
 				FC5BCE7415E48B1900A4F29C /* CustomNavBarController.m in Sources */,
 				FC4F8F8615E48C3100D8C0DC /* UINavigationBar+CustomImage.m in Sources */,
 				FC4F8F8B15E48F5800D8C0DC /* CustomNavController.m in Sources */,
-				FC95A83E15E4C7FB0056F0EF /* CustomBackBarButtonItemController.m in Sources */,
+				FC95A83E15E4C7FB0056F0EF /* CustomBackBarButtonController.m in Sources */,
+				FC1D6A5C15E7704900B9010F /* CustomBackBarButton2Controller.m in Sources */,
+				FC1D6A6015E772ED00B9010F /* SelectionActionSheetController.m in Sources */,
+				FC1D6A6315E7730600B9010F /* SelectionActionSheet.m in Sources */,
+				FC2647BA15EC59BB00CAD424 /* RoundedCornerNavBarController.m in Sources */,
+				FC2647BD15EC59EA00CAD424 /* RoundedCornerNavController.m in Sources */,
+				FC2647C915EC600800CAD424 /* TableHandlingController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

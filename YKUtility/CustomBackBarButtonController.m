@@ -1,25 +1,24 @@
 //
-//  CustomNavigationController.m
+//  CustomBackBarButtonController.m
 //  YKUtility
 //
 //  Created by Yoshiki Kurihara on 12/08/22.
 //  Copyright (c) 2012年 Yoshiki Kurihara. All rights reserved.
 //
 
-#import "CustomNavController.h"
+#import "CustomBackBarButtonController.h"
 
-@interface CustomNavController ()
+@interface CustomBackBarButtonController ()
 
 @end
 
-@implementation CustomNavController
+@implementation CustomBackBarButtonController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        //[[self navigationBar] performSelector:@selector(setBackgroundImage:) withObject:[UIImage imageNamed:@"navbar_bg"]];
-        [[self navigationBar] performSelector:@selector(setBackgroundImage:tintColor:) withObject:[UIImage imageNamed:@"navbar_bg"] withObject:UIColorFromRGB(0x003366)];
+        self.title = @"CustomBackBarButton";
     }
     return self;
 }

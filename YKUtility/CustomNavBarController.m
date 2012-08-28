@@ -19,6 +19,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        self.title = @"CustomNavBar";
         self.view.backgroundColor = [UIColor whiteColor];
     }
     return self;

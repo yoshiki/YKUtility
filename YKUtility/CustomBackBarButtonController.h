@@ -1,5 +1,5 @@
 //
-//  CustomBackBarButtonItemController.h
+//  CustomBackBarButtonController.h
 //  YKUtility
 //
 //  Created by Yoshiki Kurihara on 12/08/22.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustomBackBarButtonItemController : UIViewController
+@interface CustomBackBarButtonController : UIViewController
 
 @end
