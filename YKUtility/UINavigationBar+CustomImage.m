@@ -7,6 +7,7 @@
 //
 // Implement with this
 // [[navController navigationBar] performSelectorInBackground:@selector(setBackgroundImage:) withObject:image];
+// [[navController navigationBar] performSelectorInBackground:@selector(setBackgroundImage:) withObject:image withObject:tintColor];
 
 #import "UINavigationBar+CustomImage.h"
 
